@@ -1,6 +1,8 @@
 # target_enrichment
 Tools for empirical design of probes for hybridization-based target enrichment from 3' single-cell RNA-seq
 
+This repository contains scripts and notebooks used in "Scalable single-cell CRISPR screens by direct guide RNA capture and targeted library enrichment", Replogle JM et al., Nature Biotechnology 2020. At present, these are simply presented as used in the manuscript, with notebooks serving as examples.
+
 I use two notebooks to choose targeted regions: 
  
 (1) process_bams.ipynb
