@@ -6,11 +6,11 @@ I use two notebooks to choose targeted regions:
 (1) process_bams.ipynb
 
 The purpose of this notebook is to process a bam file (10x scRNA-seq in your cell type of interest) to transcript-resolved mappings. 
-We use the library plastid (https://plastid.readthedocs.io/en/latest/
+We use the library plastid (https://plastid.readthedocs.io/en/latest/)
 
 (2) pick_targets.ipynb
 
-(a) For each target gene, we determine all transcript isoforms that account for >80% of reads in a K562 RNA-seq dataset (https://www.encodeproject.org/files/ENCFF717EVE/). 
+(a) For each target gene, we determine all transcript isoforms that account for >80% of RNA-seq reads in your cell type of interest (K562 RNA-seq dataset: https://www.encodeproject.org/files/ENCFF717EVE/). 
 
 (b) For each of these transcripts, we then perform a peak finding procedure to find the region to target with probes. 
 We align all reads from a cell-type matched 3’ scRNA-seq dataset and smooth them using a median filter. 
